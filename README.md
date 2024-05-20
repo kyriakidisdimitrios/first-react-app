@@ -84,7 +84,7 @@ Semantic Commit Messages (Highly advised to be used)
 - chore: (updating grunt tasks etc; no production code change)
 
 ## Troubleshooting
-- If you encounter any issues, consider the following steps:
+If you encounter any issues, consider the following steps:
 - Ensure all dependencies are correctly installed by running npm install.
 - Verify that you are using the correct versions of Node.js and npm.
 - Check the browser console for any errors.

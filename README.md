@@ -92,3 +92,11 @@ If you encounter any issues, consider the following steps:
 
 ## License
 No licence added yet.
+
+## Course URL
+
+You can find the course materials and detailed instructions on the official GitHub repository [here](https://github.com/academind/react-complete-guide-course-resources).
+
+## Join Our Community
+
+For support, discussion, and community interaction, join our Discord server [here](https://discord.com/invite/gxvEWGU). Connect with other learners, share your progress, and get help when you need it!

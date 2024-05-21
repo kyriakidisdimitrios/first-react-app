@@ -97,6 +97,25 @@ No licence added yet.
 
 You can find the course materials and detailed instructions on the official GitHub repository [here](https://github.com/academind/react-complete-guide-course-resources).
 
-## Join Our Community
+## Join Lesson Community
 
 For support, discussion, and community interaction, join our Discord server [here](https://discord.com/invite/gxvEWGU). Connect with other learners, share your progress, and get help when you need it!
+
+## Useful Links
+
+https://create-react-app.dev/
+
+## Useful Tips
+
+Every time you develop a new project, run 
+```ssh
+ npm install
+```
+Every time you need to start a development server that allows you to view the web app you're working on 
+```ssh
+ npm run dev
+```
+Scaffolding Vite Project
+```ssh
+ npm create vite@latest
+```

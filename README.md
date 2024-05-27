@@ -105,7 +105,6 @@ For support, discussion, and community interaction, join our Discord server [her
 
 https://create-react-app.dev/
 
-## Useful Tips
 
 Every time you develop a new project, run 
 ```ssh
@@ -115,6 +114,16 @@ Every time you need to start a development server that allows you to view the we
 ```ssh
  npm run dev
 ```
+
+Make a new branch and upload your changes
+```ssh
+git checkout -b course-4-alternative-props-syntax2
+git add .
+git commit -m "feat: Added alternative props syntax example and setup Vite project"
+git push origin course-4-alternative-props-syntax2
+```
+
+
 Scaffolding Vite Project
 ```ssh
  npm create vite@latest

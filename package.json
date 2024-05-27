@@ -1,29 +1,20 @@
 {
-  "name": "first-react-app",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
+  "name": "react-essentials-start",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "loader-utils": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-scripts": "5.0.1"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@babel/runtime": "latest",
-    "typescript": "^4.1.3"
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.9"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "keywords": [],
+  "description": ""
 }

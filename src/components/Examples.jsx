@@ -2,6 +2,7 @@ import {useState} from "react";
 import TabButton from "./TabButton.jsx";
 import Section from "./Section.jsx";
 import {EXAMPLES} from "../data.js";
+import Tabs from "./Tabs.jsx";
 let tabContent = "Please click a button";
 
 function handleSelect(selectedButton){
@@ -33,17 +34,17 @@ export default function Examples(){
     }
     return (
         <Section title ="Examples" id="examples">
-            <h2>Examples</h2>
-            <menu>
-                {/*<TabButton onSelect={handleSelect}>Components</TabButton>*/}
-                {/*<TabButton onSelect={handleSelect}>JSX</TabButton>*/}
-                {/*<TabButton onSelect={handleSelect}>Props</TabButton>*/}
-                {/*<TabButton onSelect={handleSelect}>State</TabButton>*/}
+            {/*<h2>Examples</h2>*/}
+            <Tabs buttons={
+                <>
                 <TabButton isSelected={selectedTopic === 'components'} onSelect={() => handleSelect('components')}>Components</TabButton>
-                <TabButton isSelected={selectedTopic === 'jsx'} onSelect={() => handleSelect('jsx')}>JSX</TabButton>
-                <TabButton isSelected={selectedTopic === 'props'} onSelect={() => handleSelect('props')}>props</TabButton>
-                <TabButton  isSelected={selectedTopic === 'state'} onSelect={() => handleSelect('state')}>State</TabButton>
-            </menu>
+            <TabButton isSelected={selectedTopic === 'jsx'} onSelect={() => handleSelect('jsx')}>JSX</TabButton>
+            <TabButton isSelected={selectedTopic === 'props'} onSelect={() => handleSelect('props')}>props</TabButton>
+            <TabButton  isSelected={selectedTopic === 'state'} onSelect={() => handleSelect('state')}>State</TabButton>
+                    {tabContent}
+                </>}></Tabs>
+
+            <menu></menu>
             {/*{!selectedTopic ? (<p>Please select a topic.</p>*/}
             {/*) : (*/}
             {/*    <div id="tab-content">*/}
@@ -56,7 +57,8 @@ export default function Examples(){
             {/*    </code>*/}
             {/*  </pre>*/}
             {/*    </div>)}*/}
-            {tabContent}
+
         </Section>
     );
+
 }
